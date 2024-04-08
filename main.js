@@ -262,35 +262,35 @@ function generationIcone() {
                 liste = [];
                 }
             if ((randomID == 112 || randomID == 172)){
-            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="faction2"><img src="RACES/elfe.png">&nbspElfe de la nuit </span>&nbsp?`;
+            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="Alliance"><img src="RACES/elfe.png">&nbspElfe de la nuit </span>&nbsp?`;
             document.querySelector('.icons').innerHTML = `<img src="SPELLS/${image}">`;  
             } 
             else if (randomID == 374){
-            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="faction2"><img src="RACES/humain.png">&nbspHumain </span>&nbsp?`;
+            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="Alliance"><img src="RACES/humain.png">&nbspHumain </span>&nbsp?`;
             document.querySelector('.icons').innerHTML = `<img src="SPELLS/${image}">`;
             }
             else if (randomID == 173){
-            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="faction2"><img src="RACES/nain.png">&nbspNain </span>&nbsp?`;
+            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="Alliance"><img src="RACES/nain.png">&nbspNain </span>&nbsp?`;
             document.querySelector('.icons').innerHTML = `<img src="SPELLS/${image}">`;
             }
             else if (randomID == 217){
-            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="faction2"><img src="RACES/humain.png">&nbspHumain</span>&nbspet&nbsp<span class="faction2"><img src="RACES/nain.png">Nain </span>&nbsp?`;
+            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="Alliance"><img src="RACES/humain.png">&nbspHumain</span>&nbspet&nbsp<span class="Alliance"><img src="RACES/nain.png">Nain </span>&nbsp?`;
             document.querySelector('.icons').innerHTML = `<img src="SPELLS/${image}">`;
             }
             else if ((randomID == 331) || (randomID == 344)){
-            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="faction1"><img src="RACES/ud.png">&nbspMort-vivant </span>&nbsp?`;
+            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="Horde"><img src="RACES/ud.png">&nbspMort-vivant </span>&nbsp?`;
             document.querySelector('.icons').innerHTML = `<img src="SPELLS/${image}">`;
             }
             else if ((randomID == 276) || (randomID == 355)){
-            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="faction1"><img src="RACES/troll.png">&nbspTroll </span>&nbsp?`;
+            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="Horde"><img src="RACES/troll.png">&nbspTroll </span>&nbsp?`;
             document.querySelector('.icons').innerHTML = `<img src="SPELLS/${image}">`;
             }
             else if ((randomID == 113) || (randomID == 114) || (randomID == 117)|| (randomID == 105)|| (randomID == 106)|| (randomID == 108)){
-            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="faction2"><img src="FACTION/alliance.png">&nbspAlliance </span>&nbsp?`;
+            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="Alliance"><img src="FACTION/alliance.png">&nbspAlliance </span>&nbsp?`;
             document.querySelector('.icons').innerHTML = `<img src="SPELLS/${image}">`;
             }
             else if ((randomID == 116) || (randomID == 118) || (randomID == 119)|| (randomID == 107)|| (randomID == 109)|| (randomID == 110)){
-            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="faction1"><img src="FACTION/horde.png">&nbspHorde </span>&nbsp?`;
+            document.querySelector('h1').innerHTML = `Quel est le nom de cette technique en<span class="${classe}">&nbsp;<img src="CLASS/${classe}.png">&nbsp;${classe}</span>&nbsp<span class="Horde"><img src="FACTION/horde.png">&nbspHorde </span>&nbsp?`;
             document.querySelector('.icons').innerHTML = `<img src="SPELLS/${image}">`;
             }
             else {
