@@ -323,3 +323,6 @@ footer{
     color: #AAD372;
     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
+@media screen and (max-width: 1024px) {
+ .logo {max-width: 75%}
+}
