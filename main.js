@@ -119,7 +119,7 @@ commentJouer.addEventListener('click', function () {
 boutonRejouer.addEventListener('click', function () {
     // Réinitialisation des variables
     modalFin.classList.add('hidden');
-    document.querySelector('.timer').classList.remove('faction1');
+    document.querySelector('.timer').classList.remove('Horde');
     ligneAide.textContent = '';
     remainingTimeInSeconds = 181;
     cout = "Gratuit";
