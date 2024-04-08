@@ -44,7 +44,7 @@ html,body {
     display: flex;
     height: 121px;
     width: 240px;
-    background-image: url('IMAGES/background\ modal.png');
+    background-image: url('IMAGES/background modal.png');
     background-repeat: no-repeat;
     background-position: center;
     justify-content: space-around;
