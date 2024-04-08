@@ -6,7 +6,7 @@ html {
     background-size: 100% 100%;
     position: fixed;
     width: 100%;
-    cursor: url(/IMAGES/pointeur1.cur),
+    cursor: url('IMAGES/pointeur1.cur'),
         auto;
 }
 .timer {
@@ -36,7 +36,7 @@ html,body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(IMAGES/regles.png);
+    background-image: url('IMAGES/regles.png');
     background-repeat: no-repeat;
 
 }
@@ -159,7 +159,7 @@ footer{
     width: 225px;
     padding-left: 20px;
     padding-right: 20px;
-    cursor: url('/IMAGES/pointeur2.cur'),
+    cursor: url('IMAGES/pointeur2.cur'),
         auto;
 }
 #boutonJouer , #boutonCommentJouer{  
@@ -172,13 +172,13 @@ footer{
 #boutonRejouer,
 #boutonCommentJouer {
     align-self: center;
-    cursor: url('/IMAGES/pointeur2.cur'),
+    cursor: url('IMAGES/pointeur2.cur'),
         auto;
 }
 #boutonJouer{
     height: 40px;
     width: 171px;
-    background-image:url('/IMAGES/jouer.png') ;
+    background-image:url('IMAGES/jouer.png') ;
     background-position: center;
     justify-content: center;
     background-repeat: no-repeat;
@@ -186,14 +186,14 @@ footer{
 #boutonCommentJouer{
     height: 40px;
     width: 171px;
-    background-image:url('/IMAGES/commentjouer.png') ;
+    background-image:url('IMAGES/commentjouer.png') ;
     background-position: center;
     justify-content: center;
     background-repeat: no-repeat;
 }
 #boutonRejouer{
     height: 25px;
-    background-image:url('/IMAGES/valide.png') ;
+    background-image:url('IMAGES/valide.png') ;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -240,7 +240,7 @@ footer{
     display: flex;
     justify-content: center;
     background-image: url('IMAGES/skip.png');
-    cursor: url('/IMAGES/cursor-skip.cur'),
+    cursor: url('IMAGES/cursor-skip.cur'),
         auto;
 }
 .montant-score {
