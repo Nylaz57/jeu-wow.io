@@ -1,6 +1,6 @@
 // Variables pour stocker le timer et le temps écoulé
 let rafraichirTemps;
-let remainingTimeInSeconds = 15; // 3 minutes en secondes +1 sec
+let remainingTimeInSeconds = 181; // 3 minutes en secondes +1 sec
 let scoreActuel = 0 ;
 let cout = "Gratuit";
 let nbskip = 0;
