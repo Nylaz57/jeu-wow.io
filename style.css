@@ -382,8 +382,48 @@ footer{
         margin-top: 5px;
         font-size: 1.7em;
     }
-    .icons {
+    .icons{
+        margin-bottom: 0px;
+    }
+    .icons > img{
         height: 100px;
+    }
+    .skip{
+        margin-top: 20px;
+    }
+    .score{
+        margin-top: 0px;
+    }
+    .montant{
+        font-size: 0.7em;
+    }
+    .gold{
+        height: 50%;
+    }
+    footer > p {
+        margin-bottom: 0px;
+        font-size: 0.7em;
+
+    }
+
+    .aide>p{
+        height: 0px;
+    }
+}
+
+@media screen and (max-height: 650px){
+    body {
+        justify-content: start ;
+    }
+    .timer{
+        font-size: 2em;
+    }
+    h1 {
+        margin-top: 5px;
+        font-size: 1.5em;
+    }
+    .icons > img{
+        height: 75px;
         margin-bottom: 0px;
     }
     .skip{
@@ -403,7 +443,15 @@ footer{
         font-size: 0.7em;
 
     }
-    .texte-aide3 , .texte-aide2 , .texte-aide {
-        height: 0px;
-    }
+    .logo > img {
+    max-width: 70%;
+  max-height: 100%;
+}
+.aide>p{
+    margin-top: 0px;
+    height: 0px;
+}
+.icons{
+    height: auto;
+}
 }
