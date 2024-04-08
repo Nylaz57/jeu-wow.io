@@ -190,7 +190,7 @@ function updateTimer() {
 
     if (remainingTimeInSeconds === 30) {
     bell.play();
-    document.querySelector('.timer').classList.add('faction1');
+    document.querySelector('.timer').classList.add('Horde');
     }
     if (remainingTimeInSeconds === 5) {
         finTimer.play()
