@@ -332,6 +332,9 @@ footer{
     .imgs , .imgs2 {
         display: none;
     }
+    #boutonCommentJouer{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 720px){
