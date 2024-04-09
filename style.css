@@ -429,6 +429,10 @@ footer{
     .skip{
         margin-top: 20px;
     }
+
+    #boutonCommentJouer{
+        display: none;
+    }
     .score{
         margin-top: 0px;
     }
