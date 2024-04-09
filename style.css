@@ -345,6 +345,10 @@ footer{
         margin-top: 5px;
         font-size: 1.7em;
     }
+    #boutonCommentJouer{
+        display: none;
+    }
+    
     .icons {
         height: 100px;
         margin-bottom: 0px;
@@ -382,6 +386,9 @@ footer{
         margin-top: 5px;
         font-size: 1.7em;
     }
+
+)
+    
     .icons{
         margin-bottom: 0px;
     }
@@ -403,7 +410,6 @@ footer{
     footer > p {
         margin-bottom: 0px;
         font-size: 0.7em;
-
     }
 
     .aide>p{
@@ -433,6 +439,7 @@ footer{
     #boutonCommentJouer{
         display: none;
     }
+    
     .score{
         margin-top: 0px;
     }
@@ -445,19 +452,20 @@ footer{
     footer > p {
         margin-bottom: 0px;
         font-size: 0.7em;
-
     }
+    
     .logo > img {
-    max-width: 70%;
-  max-height: 100%;
-}
-.aide>p{
-    font-size: 1.2em;
+        max-width: 70%;
+        max-height: 100%;
+   }
+    .aide>p{
+       font-size: 1.2em;
     text-align: center;
     margin-top: 0px;
     height: 0px;
-}
-.icons{
-    height: auto;
-}
+        
+   }
+   .icons{
+   height: auto;
+   }
 }
