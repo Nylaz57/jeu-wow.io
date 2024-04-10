@@ -1194,12 +1194,6 @@
         "image": "166.png"
     },
     {
-        "id":202,
-        "classe": "Prêtre",
-        "name": ["guerisondesmaladies"],
-        "image": "167.png"
-    },
-    {
         "id":203,
         "classe": "Prêtre",
         "name": ["guerisondesmaladies"],
