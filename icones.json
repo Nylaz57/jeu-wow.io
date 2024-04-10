@@ -594,12 +594,6 @@
         "image": "87.png"
     },
     {
-        "id":99,
-        "classe": "Guerrier",
-        "name": ["intervention"],
-        "image": "88.png"
-    },
-    {
         "id":100,
         "classe": "Guerrier",
         "name": ["cridemoralisant"],
