@@ -1716,12 +1716,6 @@
         "image": "237.png"
     },
     {
-        "id":290,
-        "classe": "Mage",
-        "name": ["evocation"],
-        "image": "237.png"
-    },
-    {
         "id":291,
         "classe": "Chaman",
         "name": ["rapiditedelanature"],
